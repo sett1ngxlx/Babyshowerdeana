@@ -35,3 +35,11 @@ body {
     padding: 10px 20px;
   }
 }
+/* Secciones generales */
+.section1, .section2, .section3 {
+  height: 100vh; /* Altura completa de la ventana */
+  background-size: contain; /* Asegura que la imagen se vea completa */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita repeticiones */
+  background-color: #e8c7bb; /* Color de fondo de seguridad en caso de espacios vacíos */
+}
