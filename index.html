@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bienvenido a el BabyShower de Ana Olivia!</title>
+  <title>Bienvenido al BabyShower de Ana Olivia!</title>
   <style>
     body {
       margin: 0;
@@ -28,26 +28,36 @@
       position: relative;
     }
 
+    /* Tercera sección */
+    .section3 {
+      height: 100vh;
+      background-image: url('UBICACION.jpg'); /* Imagen de fondo para la sección 3 */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+
     /* Estilo del botón */
-    .confirm-button {
+    .button {
       position: absolute;
-      top: 50%;
+      top: 70%; /* Ajustar según el diseño */
       left: 50%;
       transform: translate(-50%, -50%);
-      background-color: #f8a6e6;
+      background-color: #ffa1db; /* Color verde */
       color: white;
-      padding: 40px 70px;
+      padding: 20px 40px;
       border: none;
       border-radius: 5px;
       text-decoration: none;
-      font-size: 2rem;
-      font-family: Arial, sans-serif;
+      font-size: 1.5rem;
+      font-family: 'Georgia', serif; /* Fuente elegante */
       cursor: pointer;
       z-index: 1;
     }
 
-    .confirm-button:hover {
-      background-color: #fcadb3;
+    .button:hover {
+      background-color: hsl(318, 100%, 81%); /* Efecto hover */
     }
   </style>
 </head>
@@ -60,13 +70,20 @@
   <!-- Segunda sección -->
   <div class="section2">
     <h2 style="color: white; text-align: center; padding-top: 20vh;"></h2>
-    <!-- Botón para redirigir a WhatsApp -->
     <a href="https://wa.me/595994828948?text=Hola%21%20Quiero%20confirmar%20mi%20presencia%20al%20BabyShower%2C%20mi%20nombre%20es%3A" 
-       class="confirm-button">
-      Haz Click Aquí para Confirmar Presencia
+       class="button">
+      Haz Click Aquí para Confirmar Presencia!
+    </a>
+  </div>
+
+  <!-- Tercera sección -->
+  <div class="section3">
+    <h2 style="color: white; text-align: center; padding-top: 20vh;"></h2>
+    <a href="https://maps.app.goo.gl/1gX65BUWr4PP6L426" 
+       class="button">
+      Haz Click Aqui para Ver la Ubicacion del Evento!
     </a>
   </div>
 </body>
 </html>
-
 
