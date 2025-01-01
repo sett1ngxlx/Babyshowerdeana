@@ -1,37 +1,8 @@
-/* Reset general */
-body {
-  margin: 0;
-}
-
-/* Primera sección */
+/* Secciones generales */
 .section1, .section2, .section3 {
-  height: 100vh;
-  background-size: contain; /* Ajusta la imagen dentro de los márgenes */
+  height: 100vh; /* Altura completa de la ventana */
+  background-size: contain; /* Asegura que la imagen se vea completa */
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita repeticiones */
-}
-
-/* Soluciones específicas para pantallas pequeñas */
-@media (max-width: 768px) {
-  .section1, .section2, .section3 {
-    background-size: cover; /* Mantiene la cobertura en pantallas pequeñas */
-    background-attachment: scroll; /* Evita que las imágenes se fijen */
-  }
-
-  .button {
-    font-size: 1.2rem; /* Reduce el tamaño del texto del botón */
-    padding: 15px 30px; /* Ajusta el tamaño del botón */
-  }
-}
-
-@media (max-width: 480px) {
-  .section1, .section2, .section3 {
-    background-size: cover;
-    background-position: center top; /* Asegura que el contenido importante esté visible */
-  }
-
-  .button {
-    font-size: 1rem; /* Ajusta aún más el texto del botón */
-    padding: 10px 20px;
-  }
+  background-color: #f4f4f4; /* Color de fondo de seguridad en caso de espacios vacíos */
 }
